@@ -1,6 +1,6 @@
 # MFET 250 Final Project - Smart CNC Process Monitoring with AWS IoT and Machine Learning
 
-Team Size: 2 students per team 
+Team Size: 3 students per team 
 Duration: ≈ 5 weeks 
 Hardware: Haas VF-4SS CNC machine + external microphone sensor 
 Cloud Platform: AWS IoT Core · AWS Database (DynamoDB) · AWS Lambda 
