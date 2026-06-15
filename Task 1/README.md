@@ -1,5 +1,4 @@
 # Introduction 
----
 In this project, the goal was to design a system to collect raw data from a CNC machine and determine the machine's state. The states include idle, cutting, and travel. While the data is collected via MTConnect and Arduino, we used PubSub. PubSub is a communication model that allows the CNC data to be transmitted to IoT Core from the VSCode file every 1.5 seconds. The data will then be sent to an MQTT test client called “sdk/test/python” which will upload it to DynamoDB to determine the machine's state. When designing the system to track each state of the CNC (Cutting / Travel / Idle). We thought about the definition and classification of each state. We defined the difference between the 3 by whether it surpassed the threshold we imposed. For example, if the machine was both traveling and cutting at the same time, it would say cutting because it passed the threshold. When the spindle is at rest, it would be in an idle state, and when it’s moving and not cutting, it would be traveling. 
 ---
 # Task 1: Project Planning and Architecture
