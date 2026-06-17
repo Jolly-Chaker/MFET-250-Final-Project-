@@ -1,0 +1,45 @@
+{​
+
+  "timestamp": 1765227095.6166213,​
+
+  "mic": 40,​
+
+  "spindle_speed": 0,​
+
+  "spindle_enabled": true,​
+
+  "x_axis_acutal_position": -989.6644234934847,​
+
+  "y_axis_actual_position": -0.0015563949883729555,​
+
+  "z_axis_actual_position": -0.011187952859948645,​
+
+  "controller_mode": "AUTOMATIC",​
+
+  "execution_status": "STOPPED",​
+
+  "feedrate_override": 100,​
+
+  "rapid_override": 25,​
+
+  "delta_mic": 0,​
+
+  "delta_spindle_speed": 0,​
+
+  "delta_spindle_enabled": 0,​
+
+  "delta_x_axis_acutal_position": 0,​
+
+  "delta_y_axis_actual_position": 0,​
+
+  "delta_z_axis_actual_position": 0,​
+
+  "delta_controller_mode": 0,​
+
+  "delta_execution_status": 0,​
+
+  "delta_feedrate_override": 0,​
+
+  "delta_rapid_override": 0​
+
+}
